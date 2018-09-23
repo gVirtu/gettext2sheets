@@ -1,0 +1,20 @@
+{
+    "path": "./gettext",
+    "spreadsheet_id": "00000000000000000000000000000000000000000000",
+    "pull_chunk_size": 100,
+    "locales": {
+        "en": {
+            "sheet": "Sheet1",
+            "row_offset": 0,
+            "column_offset": 0,
+            "columns": [
+                {"static": "{file_name}", "header": "FILE"},
+                {"fields": ["msgid"], "header": "MSGID (SINGULAR)"},
+                {"fields": ["msgstr", "msgstr[0]"], "header": "TRANSLATED (SINGULAR)"},
+                {"fields": ["msgid_plural"], "header": "MSGID (PLURAL)"},
+                {"fields": ["msgstr[1]"], "header": "TRANSLATED (PLURAL)"},
+                {"static": "{timestamp}", "header": "GENERATED AT"}
+            ]
+        }
+    }
+}

@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+/gettext
+token.json
+credentials.json
+.vscode
